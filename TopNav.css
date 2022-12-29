@@ -1,0 +1,46 @@
+/*style for the topnav bar*/
+
+
+/*Setting all margin to 0 for topnav
+ to be able to extend to edges. Hope it doesn't break stuff.*/
+*{
+  margin:0;
+  box-sizing: border-box;
+}
+
+
+.topnav {
+  background-color: #A60F2D;
+  overflow: hidden;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 7px;
+}
+
+.logo{
+  color: white;
+  padding-right: 20px;
+  font-size: 32px;
+}
+
+.topnav a.active {
+  /*background-color: #4D4D4D;*/
+  color: white;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
